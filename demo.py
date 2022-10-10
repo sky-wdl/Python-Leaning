@@ -1,2 +1,1 @@
-x = ascii("My name is Stale")
-print(x)
+print(eval(input("Enter>"))**2)

@@ -13,20 +13,21 @@
 单词: 6 格， 右对齐
 次数: 2 格
 
-ps23 = '''The LORD is my shepherd, I shall not be in want.
-He makes me lie down in green pastures, he leads me beside quiet waters,
-he restores my soul. He guides me in paths of righteousness for his name's sake.
-Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.
-You prepare a table before me in the presence of my enemies. You anoint my head with oil; my cup overflows.
-Surely goodness and love will follow me all the days of my life, and I will dwell in the house of the LORD forever.'''
-"""
+ps23 = '''The LORD is my shepherd, I shall not be in want. He makes me lie down in green pastures, he leads me beside
+quiet waters, he restores my soul. He guides me in paths of righteousness for his name's sake. Even though I walk
+through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff,
+they comfort me. You prepare a table before me in the presence of my enemies. You anoint my head with oil; my cup
+overflows. Surely goodness and love will follow me all the days of my life, and I will dwell in the house of the LORD
+forever.''' """
 
-ps23 = '''The LORD is my shepherd, I shall not be in want.
-He makes me lie down in green pastures, he leads me beside quiet waters,
-he restores my soul. He guides me in paths of righteousness for his name's sake.
-Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.
-You prepare a table before me in the presence of my enemies. You anoint my head with oil; my cup overflows.
-Surely goodness and love will follow me all the days of my life, and I will dwell in the house of the LORD forever.'''
+ps23 = ('The LORD is my shepherd, I shall not be in want.\n'
+        'He makes me lie down in green pastures, he leads me beside quiet waters,\n'
+        'he restores my soul. He guides me in paths of righteousness for his name\'s sake.\n'
+        'Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your '
+        'rod and your staff, they comfort me.\n '
+        'You prepare a table before me in the presence of my enemies. You anoint my head with oil; my cup overflows.\n'
+        'Surely goodness and love will follow me all the days of my life, and I will dwell in the house of the LORD '
+        'forever.')
 ps23 = ps23.replace(',', '')
 ps23 = ps23.replace('.', '')
 ps23 = ps23.replace(';', '')
