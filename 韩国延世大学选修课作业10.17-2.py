@@ -1,31 +1,15 @@
-import random
+from importlib import reload
+import yut
 
-random.seed(10)
+reload(yut)
+
 result = None
 back = None
 belly = None
 counts = {}
 
-
-def throw_yut1():
-    a = random.random()
-    if a <= 0.4:
-        return '등'
-    else:
-        return '배'
-
-
-def throw_yut4():
-    result = ''
-
-    for i in range(4):
-        result += throw_yut1()
-
-    return result
-
-
 for i in range(1000):
-    result = throw_yut4()
+    result = yut.throw_yut4()
     back = result.count('등')
     belly = result.count('배')
 
