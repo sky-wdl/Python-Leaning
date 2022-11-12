@@ -1,5 +1,4 @@
-def BMI(weight, height):
-    return weight / (height * height)
+import pandas as pd
 
-
-print(BMI(60, 1.80))
+df = pd.read_csv('doge.csv')
+print(df.loc())
