@@ -1,4 +1,4 @@
-import pandas as pd
+a = []
+a = input()
+print(list(a)[4])
 
-df = pd.read_csv('doge.csv')
-print(df.loc())
